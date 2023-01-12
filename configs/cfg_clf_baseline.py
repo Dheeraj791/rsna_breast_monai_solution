@@ -58,9 +58,9 @@ cfg.num_workers = 32
 cfg.restart_epoch = 100
 
 # dataset
-cfg.img_size = (1024, 1024)
-cfg.batch_size = 64
-cfg.val_batch_size = 128
+cfg.img_size = (512, 512)
+cfg.batch_size = 32
+cfg.val_batch_size = 32
 cfg.train_cache_rate = 0.0
 cfg.val_cache_rate = 0.0
 cfg.gpu_cache = False
