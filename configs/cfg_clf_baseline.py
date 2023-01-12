@@ -54,7 +54,7 @@ cfg.lr_final_div = 10000.0
 cfg.weight_decay = 1e-2
 cfg.epochs = 10
 # cfg.warmup_epoch = 1
-cfg.num_workers = 32
+cfg.num_workers = 16
 cfg.restart_epoch = 100
 
 # dataset
