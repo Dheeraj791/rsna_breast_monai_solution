@@ -36,10 +36,10 @@ from default_config import basic_cfg
 cfg = basic_cfg
 
 # data
-cfg.data_df = "train_df_4folds.csv"
+cfg.data_df = "/kaggle/working/rsna_breast_monai_solution/train_df_4folds.csv"
 # 1024 dataset is from:
 # https://www.kaggle.com/code/theoviel/dicom-resized-png-jpg
-cfg.root_dir = "/raid/rsna/train_images_png_kaggle"
+cfg.root_dir = "/kaggle/input/dicom-resized-png-jpg"
 # train
 cfg.train = True
 cfg.eval = True
